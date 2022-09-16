@@ -1,0 +1,62 @@
+.loadingCover{
+    font-size: 3rem;
+    background-color: transparent;
+    color:white;
+
+}
+
+.loadingAnimation1{
+
+
+    color:white;
+    font-size: 8rem;
+    animation-name: animasyon;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction:normal;
+    animation-delay: 0ms;
+
+}
+
+.loadingAnimation2{
+
+    color:white;
+    font-size: 8rem;
+    animation-name: animasyon;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction:normal;
+    animation-delay: 100ms;
+
+}
+
+.loadingAnimation3{
+
+    color:white;
+    font-size: 8rem;
+    animation-name: animasyon;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction:normal;
+    animation-delay: 200ms;
+
+}
+
+@keyframes animasyon{
+    0%{
+        transform: rotate(0deg);
+        color:white;
+    }
+    100%{
+        transform:rotate(360deg);
+        color:red;
+    }
+}
+
+

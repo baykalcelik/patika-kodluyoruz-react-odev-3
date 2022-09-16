@@ -1,0 +1,68 @@
+.blurBackground{
+    
+    width:65vw;
+    height:34rem;
+    /* min-height:20rem; */
+
+    border-radius: 20px;
+    position:relative;
+    /* background-color: aquamarine; */
+    
+
+}
+
+
+
+
+.backgroundImg{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index:2;
+    /* filter: blur(1px); */
+    /* filter:grayscale(); */
+
+}
+
+
+.innerCover{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+
+    background-color: rgba(0,0,0, 0.3);
+    /* filter: blur(5px); */
+
+    padding: 2.5rem 3rem;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index:3;
+}
+
+@media all and (max-width:1100px){
+    .blurBackground{
+        width: 65vw;
+        height:44rem;
+    }
+}
+
+
+@media all and (max-width:800px){
+    .blurBackground{
+        width: 65vw;
+        height: 45rem;
+    }
+}
+
+@media all and (max-width:600px){
+    .blurBackground{
+        width: 65vw;
+        height: 40rem;
+    }
+}
